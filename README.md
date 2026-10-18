@@ -89,6 +89,7 @@ DEV post writing and publication are outside this CLI. Demo examples and a termi
 
 ## Included demo artifacts
 
+- `docs/bplus-spike.md`: single-image description and separately recorded NLLB translation spike, with text-only evidence; no photo integration or image files.
 - `examples/before.json`: user-confirmed fictional input, validated against the upstream business schema.
 - `examples/after.json`: unedited real 3.3B output from the CLI (9 translated fields, zero runtime failures), also schema-validated. **Not linguistically approved**: the takeaway service was mistranslated as a mining-related service; the noodle name/summary also need correction.
 - `docs/demo.cast`: real terminal recording in asciinema v2 format; replay using an existing asciinema-compatible viewer. It shows the command, exit status and output JSON. No viewer is required to run the CLI.

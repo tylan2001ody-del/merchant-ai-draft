@@ -1,0 +1,30 @@
+{
+  "local_run_id": "nllb-20261018T112355.415348Z",
+  "source_vision_run_id": "20261018T110038.661342Z",
+  "model": "facebook/nllb-200-3.3B",
+  "src_lang": "zho_Hans",
+  "tgt_lang": "khk_Cyrl",
+  "device": "mps",
+  "dtype": "float16",
+  "offline": true,
+  "generation": {
+    "max_new_tokens": 256,
+    "num_beams": 4,
+    "do_sample": false
+  },
+  "standalone_script_sha256": "947d8bcba8695db45d69751eb327b61a57844c7ebb25c12ec867a1f981d47309",
+  "response": {
+    "direction": "zh-mn",
+    "source": "蓝色衬衫，红色和蓝色条纹领带，黑色夹克，胸前有徽章。",
+    "translation": "Цэнхэр хувцас, улаан, цэнхэр шугаман галзуу, хар өмсөгч, цээж дээр тэмдэгтэй.",
+    "seconds": 2.91,
+    "output_limit_reached": false
+  },
+  "metrics": {
+    "process_seconds": 35.647,
+    "exit_code": 0,
+    "completed_at_utc": "2026-10-18T11:24:31.062681+00:00",
+    "translation_seconds": 2.91,
+    "output_limit_reached": false
+  }
+}
