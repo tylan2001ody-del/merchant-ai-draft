@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "id": "demo-scarf-wholesale",
+  "isDemo": true,
+  "status": "demo",
+  "publicationApproved": false,
+  "lastConfirmedAt": null,
+  "categoryIds": [],
+  "entityType": "other",
+  "texts": {
+    "zh": {
+      "name": "虚构口岸羊绒围巾批发店",
+      "summary": "本案例完全虚构。批发羊绒围巾，提供不同颜色和规格。所有商品、价格和交易条件仅用于测试。",
+      "location": "虚构口岸小商品批发区",
+      "address": "虚构示例批发路66号A区，仅用于演示，不是真实地址。",
+      "openingHours": "每天09:00至18:00营业。",
+      "mapUrl": "https://example.com/demo-scarf-map",
+      "services": [
+        {
+          "id": "demo-mixed-color-packing",
+          "text": "支持同款混色配货。按商品编号和颜色分袋包装。"
+        }
+      ],
+      "products": [
+        {
+          "id": "demo-scarf-s01",
+          "name": "纯色羊绒围巾",
+          "specification": "长度180厘米，宽度30厘米。材质为100%山羊绒。颜色为黑色、灰色和米色。",
+          "supplyNote": "每款50条起订。订购50至99条，每条60元人民币。订购100条及以上，每条55元人民币。运费另计。",
+          "imageId": "demo-scarf-image-s01"
+        },
+        {
+          "id": "demo-scarf-s02",
+          "name": "格纹羊绒围巾",
+          "specification": "长度190厘米，宽度35厘米。材质为100%山羊绒。颜色为蓝灰格纹和棕色格纹。",
+          "supplyNote": "每款30条起订。订购30至99条，每条85元人民币。订购100条及以上，每条80元人民币。运费另计。",
+          "imageId": "demo-scarf-image-s02"
+        },
+        {
+          "id": "demo-scarf-s03",
+          "name": "加宽羊绒披肩",
+          "specification": "长度200厘米，宽度70厘米。材质为100%山羊绒。颜色为驼色和深蓝色。",
+          "supplyNote": "每款20条起订。订购20至49条，每条120元人民币。订购50条及以上，每条110元人民币。运费另计。",
+          "imageId": "demo-scarf-image-s03"
+        }
+      ]
+    },
+    "mn": null
+  },
+  "translationStatus": {
+    "mn": "draft"
+  },
+  "contacts": [
+    {
+      "type": "wechat",
+      "value": "fictional_demo_not_an_account",
+      "href": null,
+      "public": false,
+      "primary": true,
+      "verified": false,
+      "qrImageId": null
+    }
+  ],
+  "spokenLanguages": [
+    "zh"
+  ],
+  "images": [
+    {
+      "path": "/images/demo-scarf-placeholder-1.svg",
+      "alt": {
+        "zh": "虚构围巾商品图片占位1",
+        "mn": null
+      },
+      "usage": "demo-scarf-image-s01",
+      "displayApproved": false
+    },
+    {
+      "path": "/images/demo-scarf-placeholder-2.svg",
+      "alt": {
+        "zh": "虚构围巾商品图片占位2",
+        "mn": null
+      },
+      "usage": "demo-scarf-image-s02",
+      "displayApproved": false
+    },
+    {
+      "path": "/images/demo-scarf-placeholder-3.svg",
+      "alt": {
+        "zh": "虚构围巾商品图片占位3",
+        "mn": null
+      },
+      "usage": "demo-scarf-image-s03",
+      "displayApproved": false
+    }
+  ],
+  "share": {
+    "zh": {
+      "productIds": [
+        "demo-scarf-s01",
+        "demo-scarf-s02",
+        "demo-scarf-s03"
+      ],
+      "serviceIds": [
+        "demo-mixed-color-packing"
+      ],
+      "heroImageId": null,
+      "primaryContactIndex": null
+    },
+    "mn": {
+      "productIds": [
+        "demo-scarf-s01",
+        "demo-scarf-s02",
+        "demo-scarf-s03"
+      ],
+      "serviceIds": [
+        "demo-mixed-color-packing"
+      ],
+      "heroImageId": null,
+      "primaryContactIndex": null
+    }
+  },
+  "allowManualRelay": false
+}

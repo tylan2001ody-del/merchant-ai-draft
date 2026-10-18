@@ -95,3 +95,17 @@ DEV post writing and publication are outside this CLI. Demo examples and a termi
 - `scripts/record_demo.py`: standard-library-only recorder to regenerate the demo and copy actual CLI output to `after.json`.
 
 The original business project was accessed read-only for schema validation. Its image/content build was not run or modified. Placeholder references in this repository are for structural compatibility tests, not deployable image assets.
+
+### Second example: fictional scarf wholesaler
+
+`examples/before2.json` / `examples/after2.json` show merchant `demo-scarf-wholesale`: three fictional cashmere scarf/shawl products with different dimensions, colors, minimum order quantities and two RMB price tiers per product, plus one mixed-color packing service. All business details and prices are invented; contacts remain nonpublic, image paths are placeholders, and publication permission is false.
+
+```bash
+python mn_draft.py --input examples/before2.json
+# Default output: examples/before2.json.mn-draft.json
+# examples/after2.json is an exact copy of that actual CLI output.
+```
+
+The real offline 3.3B run filled 15 text fields with no runtime failures. Both files passed the original business schema validation; source text, merchant metadata, product/service IDs and order, image references and map URL were preserved. The model output is unedited and still marked `draft`.
+
+**This is a diagnostic example, not a successful translation-quality demonstration.** In the generated wholesale terms, RMB was mistranslated as Mongolian tugrik and freight conditions were omitted. Product names, material and color descriptions also contain substantial errors. Structural/schema checks cannot detect these semantic mistakes. The merchant input is approved as fictional demo data; the generated Mongolian text has not been linguistically approved.
