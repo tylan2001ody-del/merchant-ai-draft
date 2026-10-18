@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local translation outputs and external model caches
+*.mn-draft.json
+.DS_Store
+hf-cache/
+uv-cache/
+pip-cache/
+*.safetensors
+pytorch_model*.bin

@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "demo-noodle-shop",
+  "isDemo": true,
+  "status": "demo",
+  "publicationApproved": false,
+  "lastConfirmedAt": null,
+  "categoryIds": [],
+  "entityType": "other",
+  "texts": {
+    "zh": {
+      "name": "虚构示例牛肉面馆",
+      "summary": "这是一家虚构的示例面馆。提供牛肉面和奶茶。",
+      "location": "虚构示例城区",
+      "address": "虚构示例路88号，仅用于演示，不是真实地址。",
+      "openingHours": "每天09:00至21:00营业。",
+      "mapUrl": "https://example.com/demo-map",
+      "services": [{"id": "demo-takeaway", "text": "提供打包服务。"}],
+      "products": [{
+        "id": "demo-noodles",
+        "name": "示例牛肉面",
+        "specification": "每份500克。",
+        "supplyNote": "示例价格每份20元人民币，仅用于演示。",
+        "imageId": "demo-bowl"
+      }]
+    },
+    "mn": null
+  },
+  "translationStatus": {"mn": "draft"},
+  "contacts": [{
+    "type": "wechat",
+    "value": "fictional_demo_not_an_account",
+    "href": null,
+    "public": false,
+    "primary": true,
+    "verified": false,
+    "qrImageId": null
+  }],
+  "spokenLanguages": ["zh"],
+  "images": [{
+    "path": "/images/demo-placeholder.svg",
+    "alt": {"zh": "虚构示例图片占位", "mn": null},
+    "usage": "demo-bowl",
+    "displayApproved": false
+  }],
+  "share": {
+    "zh": {"productIds": ["demo-noodles"], "serviceIds": ["demo-takeaway"], "heroImageId": null, "primaryContactIndex": null},
+    "mn": {"productIds": ["demo-noodles"], "serviceIds": ["demo-takeaway"], "heroImageId": null, "primaryContactIndex": null}
+  },
+  "allowManualRelay": false
+}
